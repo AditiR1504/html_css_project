@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #e6e4e1;
+    font-style: "DM suns";
+  }
+  #sub{
+  margin-left: 12px;
+  cursor: pointer;
+ }
+  .navbar {
+    
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-top: 10px;
+  
+  
+    
+  }
+  .navdiv{
+    
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-left: 27px;
+  }
+  #navimg {
+    height: 80px;
+    width: 80px;
+  }
+  
+  li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 70px;
+    gap:20px;
+    cursor: pointer;
+  
+  }
+  li a{
+    color: #9CA3Af;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+  
+    
+  }
+  /* button */
+  #loginbtn a{
+    text-decoration: none;
+    color: #200E32;
+  
+    
+    
+  }
+  #startbtn a{
+    color: white;
+    text-decoration: none;
+  }
+   #loginbtn{
+    background-color: #e6e4e1;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 0 32px;
+    font-size: 16px;
+    width: 100px;
+    height: 47px;
+    cursor: pointer;
+   }
+   #startbtn{
+    background-color: #200E32;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 0 32px;
+    font-size: 16px;
+    width: 140px;
+    height: 47px;
+    cursor: pointer;
+   }
+
+
+     /* main */
+  .main{
+  font-size: 20px;         
+  font-family: "DM Sans";      
+  text-align: left;    
+  text-decoration: none;   
+  line-height: 1.5; 
+  margin-left: 20px;
+  margin-right:20px ;
+  word-spacing: 0.25rem;
+  padding-left: 370px;
+  
+
+   }
+    #heading1 {
+    margin-top: 150px;
+    font-size: 36px;
+    margin-bottom: 30px;
+    }
+   
+  #heading2,#heading3,#heading4{
+    margin-top: 90px;
+    font-size: 36px;
+    margin-bottom: 30px;
+
+   }
+
+  .para{
+    margin-top:35px;
+    font-size: 20px;
+   
+  }
+  .title{
+    margin-top:10px;
+    font-size: 20px;
+  }
+  .title1{
+    margin-top:40px;
+  }
+  .points{
+    margin-top: 20px;
+  }
+  #rating{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 40px;
+  }
+  #reviews{
+    margin-top: 20px;
+  }
+  #info{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .help{
+    margin-top: 20px;
+  }
+  
+#buidbtn{
+ background-color: #200E32;
+  height: 65px;
+ width: 350px;
+ border-radius: 10px;
+ margin-top: 24px;
+ 
+}
+#buidbtn a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+#buifinfo{
+  margin-top: 25px;
+  color: #4b5563;
+}
+#contact{
+  margin-top: 25px;
+  color: black;
+}
+#contact a{
+  color:black;
+}
+#contact2{
+  margin-top: 30px;
+}
+
+/* footer */
+
+.footer{
+ border: 2px solid black;
+ background-color: #200E32;
+ color:white;
+  height: 430px;
+  width:100% ;
+  margin-top: 150px;
+  margin-left: 5px;
+  display: flex;
+ 
+}
+ .logo2{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-left: 27px;
+    margin-top: 55px;
+ }
+ 
+ 
+
+.footerheading1{
+  margin-right: 170px;
+ 
+  display: flex;
+  flex-direction: column;
+
+  
+}
+.footerheading2{
+  margin-bottom:40px ;
+    display: flex;
+  flex-direction: column;
+  
+ }
+ .footerheading1 a{
+  text-decoration: none;
+  color: white;
+   margin-top: 15px;
+ }
+ .footerheading2 a{
+  text-decoration:none ;
+  color: white;
+   margin-top: 15px;
+}
+
+#footer_info{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-left: 27px;
+  margin-top: 40px;
+  
+}
+#aboutus{
+  margin-top: 40px;
+  margin-left: 27px;
+}
+
+#connection{
+  margin-left: 2px;
+  margin-top: 43px;
+}
+.parent{
+  display: flex;
+  margin-left: 350px;
+  margin-top: 50px;
+  
+}
